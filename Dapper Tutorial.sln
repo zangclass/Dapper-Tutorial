@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S1.Dapper", "S1.Dapper", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Execute", "01-Execute\01-Execute.csproj", "{8D2124A8-A962-474C-9CEF-73A8F977EA49}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S2.Dapper", "S2.Dapper", "{A87AA0C7-A179-4D48-8097-46E71606DB48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Execute Many", "02-Execute Many\02-Execute Many.csproj", "{565E027B-9A93-44B0-932B-306FFD637D0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{8D2124A8-A962-474C-9CEF-73A8F977EA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D2124A8-A962-474C-9CEF-73A8F977EA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D2124A8-A962-474C-9CEF-73A8F977EA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565E027B-9A93-44B0-932B-306FFD637D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565E027B-9A93-44B0-932B-306FFD637D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565E027B-9A93-44B0-932B-306FFD637D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565E027B-9A93-44B0-932B-306FFD637D0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8D2124A8-A962-474C-9CEF-73A8F977EA49} = {2FAA866B-1E98-4CB1-9517-6FE6ED827603}
+		{565E027B-9A93-44B0-932B-306FFD637D0B} = {A87AA0C7-A179-4D48-8097-46E71606DB48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1F2D008-B7B0-4646-B138-4E9AC22E847B}

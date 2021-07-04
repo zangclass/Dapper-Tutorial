@@ -28,25 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSaveAddHoc = new System.Windows.Forms.Button();
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.txtTel = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnSaveSp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnSaveAddHoc
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.button1.Location = new System.Drawing.Point(147, 126);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnSaveAddHoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.btnSaveAddHoc.Location = new System.Drawing.Point(147, 126);
+            this.btnSaveAddHoc.Name = "btnSaveAddHoc";
+            this.btnSaveAddHoc.Size = new System.Drawing.Size(167, 45);
+            this.btnSaveAddHoc.TabIndex = 0;
+            this.btnSaveAddHoc.Text = "Save Add Hoc";
+            this.btnSaveAddHoc.UseVisualStyleBackColor = true;
+            this.btnSaveAddHoc.Click += new System.EventHandler(this.btnSaveAddHoc_Click);
             // 
             // txtFirstName
             // 
@@ -102,18 +103,30 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Tel";
             // 
+            // btnSaveSp
+            // 
+            this.btnSaveSp.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.btnSaveSp.Location = new System.Drawing.Point(147, 177);
+            this.btnSaveSp.Name = "btnSaveSp";
+            this.btnSaveSp.Size = new System.Drawing.Size(167, 45);
+            this.btnSaveSp.TabIndex = 7;
+            this.btnSaveSp.Text = "Save SP";
+            this.btnSaveSp.UseVisualStyleBackColor = true;
+            this.btnSaveSp.Click += new System.EventHandler(this.btnSaveSp_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(330, 189);
+            this.ClientSize = new System.Drawing.Size(330, 251);
+            this.Controls.Add(this.btnSaveSp);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTel);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.txtFirstName);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSaveAddHoc);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -123,13 +136,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSaveAddHoc;
         private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.TextBox txtTel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnSaveSp;
     }
 }
 
