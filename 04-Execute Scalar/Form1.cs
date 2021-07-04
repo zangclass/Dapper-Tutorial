@@ -31,7 +31,7 @@ namespace _04_Execute_Scalar
             {
                 using (IDbConnection con = new SqlConnection(_connectionString))
                 {
-                    var result = con.ExecuteScalar<string>("select FirstName from dbo.tblUser");
+                    var result = con.ExecuteScalar<string>("select * from dbo.tblUser");
                     MessageBox.Show($"row cout is => {result}");
                 }
             }
