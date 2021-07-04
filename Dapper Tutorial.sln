@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S1.Dapper", "S1.Dapper", "{2FAA866B-1E98-4CB1-9517-6FE6ED827603}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S1.Dapper Execute", "S1.Dapper Execute", "{2FAA866B-1E98-4CB1-9517-6FE6ED827603}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Execute", "01-Execute\01-Execute.csproj", "{8D2124A8-A962-474C-9CEF-73A8F977EA49}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S2.Dapper", "S2.Dapper", "{A87AA0C7-A179-4D48-8097-46E71606DB48}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S2.Dapper Execute Many", "S2.Dapper Execute Many", "{A87AA0C7-A179-4D48-8097-46E71606DB48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Execute Many", "02-Execute Many\02-Execute Many.csproj", "{565E027B-9A93-44B0-932B-306FFD637D0B}"
 EndProject
@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Entity", "00-Entity", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{7D1F7783-6640-4754-9B7D-BAC713939384}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S3-Dapper", "S3-Dapper", "{D291D5E5-FE23-4ADB-B51E-9B346401A3B2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S3-Dapper Execute Reader", "S3-Dapper Execute Reader", "{D291D5E5-FE23-4ADB-B51E-9B346401A3B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Execute Reader", "03-Execute Reader\03-Execute Reader.csproj", "{A4621ED2-2701-4C79-A98B-5DB8D50DD8FD}"
 EndProject
