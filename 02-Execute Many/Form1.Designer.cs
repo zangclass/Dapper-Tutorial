@@ -28,13 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnSaveAddHoc = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnSaveAddHoc
+            // 
+            this.btnSaveAddHoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.btnSaveAddHoc.Location = new System.Drawing.Point(45, 48);
+            this.btnSaveAddHoc.Name = "btnSaveAddHoc";
+            this.btnSaveAddHoc.Size = new System.Drawing.Size(204, 45);
+            this.btnSaveAddHoc.TabIndex = 7;
+            this.btnSaveAddHoc.Text = "Save Excute Many";
+            this.btnSaveAddHoc.UseVisualStyleBackColor = true;
+            this.btnSaveAddHoc.Click += new System.EventHandler(this.btnSaveAddHoc_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(279, 123);
+            this.Controls.Add(this.btnSaveAddHoc);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+        private System.Windows.Forms.Button btnSaveAddHoc;
     }
 }
 

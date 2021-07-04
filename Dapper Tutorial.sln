@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S2.Dapper", "S2.Dapper", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Execute Many", "02-Execute Many\02-Execute Many.csproj", "{565E027B-9A93-44B0-932B-306FFD637D0B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Entity", "00-Entity", "{3228CF24-CFC4-4AB0-9A0B-88F2A8287EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{7D1F7783-6640-4754-9B7D-BAC713939384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{565E027B-9A93-44B0-932B-306FFD637D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565E027B-9A93-44B0-932B-306FFD637D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565E027B-9A93-44B0-932B-306FFD637D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1F7783-6640-4754-9B7D-BAC713939384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1F7783-6640-4754-9B7D-BAC713939384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1F7783-6640-4754-9B7D-BAC713939384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1F7783-6640-4754-9B7D-BAC713939384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8D2124A8-A962-474C-9CEF-73A8F977EA49} = {2FAA866B-1E98-4CB1-9517-6FE6ED827603}
 		{565E027B-9A93-44B0-932B-306FFD637D0B} = {A87AA0C7-A179-4D48-8097-46E71606DB48}
+		{7D1F7783-6640-4754-9B7D-BAC713939384} = {3228CF24-CFC4-4AB0-9A0B-88F2A8287EC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1F2D008-B7B0-4646-B138-4E9AC22E847B}
