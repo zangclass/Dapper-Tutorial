@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Entity", "00-Entity", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{7D1F7783-6640-4754-9B7D-BAC713939384}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S3-Dapper", "S3-Dapper", "{D291D5E5-FE23-4ADB-B51E-9B346401A3B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Execute Reader", "03-Execute Reader\03-Execute Reader.csproj", "{A4621ED2-2701-4C79-A98B-5DB8D50DD8FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{7D1F7783-6640-4754-9B7D-BAC713939384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D1F7783-6640-4754-9B7D-BAC713939384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D1F7783-6640-4754-9B7D-BAC713939384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4621ED2-2701-4C79-A98B-5DB8D50DD8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4621ED2-2701-4C79-A98B-5DB8D50DD8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4621ED2-2701-4C79-A98B-5DB8D50DD8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4621ED2-2701-4C79-A98B-5DB8D50DD8FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{8D2124A8-A962-474C-9CEF-73A8F977EA49} = {2FAA866B-1E98-4CB1-9517-6FE6ED827603}
 		{565E027B-9A93-44B0-932B-306FFD637D0B} = {A87AA0C7-A179-4D48-8097-46E71606DB48}
 		{7D1F7783-6640-4754-9B7D-BAC713939384} = {3228CF24-CFC4-4AB0-9A0B-88F2A8287EC6}
+		{A4621ED2-2701-4C79-A98B-5DB8D50DD8FD} = {D291D5E5-FE23-4ADB-B51E-9B346401A3B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1F2D008-B7B0-4646-B138-4E9AC22E847B}
