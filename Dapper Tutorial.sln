@@ -27,6 +27,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S5-Dapper Query", "S5-Dappe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Query", "05-Query\05-Query.csproj", "{179404F6-3511-4BC6-A8C6-316BAD95E2E3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S6-Dapper QueryFirst and QueryFirstOrDefult", "S6-Dapper QueryFirst and QueryFirstOrDefult", "{26693EEC-333D-4B02-B4D7-51764201F3CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-QueryFirst and QueryFirstOrDefult", "06-QueryFirst and QueryFirstOrDefult\06-QueryFirst and QueryFirstOrDefult.csproj", "{F9D912FC-DCE1-4B86-BF37-78065AFC7302}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{179404F6-3511-4BC6-A8C6-316BAD95E2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{179404F6-3511-4BC6-A8C6-316BAD95E2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{179404F6-3511-4BC6-A8C6-316BAD95E2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D912FC-DCE1-4B86-BF37-78065AFC7302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D912FC-DCE1-4B86-BF37-78065AFC7302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D912FC-DCE1-4B86-BF37-78065AFC7302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D912FC-DCE1-4B86-BF37-78065AFC7302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +76,7 @@ Global
 		{A4621ED2-2701-4C79-A98B-5DB8D50DD8FD} = {D291D5E5-FE23-4ADB-B51E-9B346401A3B2}
 		{DE03273C-6D49-4A3E-BDD9-E1274C08F8AF} = {274C7CE2-513B-4807-9CC1-DE50C3788240}
 		{179404F6-3511-4BC6-A8C6-316BAD95E2E3} = {78B43186-6607-44FF-B39E-6FB3DD43841C}
+		{F9D912FC-DCE1-4B86-BF37-78065AFC7302} = {26693EEC-333D-4B02-B4D7-51764201F3CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1F2D008-B7B0-4646-B138-4E9AC22E847B}
