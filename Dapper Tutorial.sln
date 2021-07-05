@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S7-Dapper QuerySingle And Q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-QuerySingle and QuerySingleOrDefault", "07-QuerySingle and QuerySingleOrDefault\07-QuerySingle and QuerySingleOrDefault.csproj", "{338DFC8C-351E-4660-B567-1D8293CCC096}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S8-Dapper QueryMultiple", "S8-Dapper QueryMultiple", "{9880E614-E827-49AE-AA8D-D44A2F57DC28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-QueryMultiple", "08-QueryMultiple\08-QueryMultiple.csproj", "{3C4A6D76-FB82-46F1-9FA2-783CE91FBB4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{338DFC8C-351E-4660-B567-1D8293CCC096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{338DFC8C-351E-4660-B567-1D8293CCC096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{338DFC8C-351E-4660-B567-1D8293CCC096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4A6D76-FB82-46F1-9FA2-783CE91FBB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4A6D76-FB82-46F1-9FA2-783CE91FBB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4A6D76-FB82-46F1-9FA2-783CE91FBB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4A6D76-FB82-46F1-9FA2-783CE91FBB4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,7 @@ Global
 		{179404F6-3511-4BC6-A8C6-316BAD95E2E3} = {78B43186-6607-44FF-B39E-6FB3DD43841C}
 		{F9D912FC-DCE1-4B86-BF37-78065AFC7302} = {26693EEC-333D-4B02-B4D7-51764201F3CA}
 		{338DFC8C-351E-4660-B567-1D8293CCC096} = {C9C5E87A-93DF-4B8C-94E8-0B71AF751631}
+		{3C4A6D76-FB82-46F1-9FA2-783CE91FBB4E} = {9880E614-E827-49AE-AA8D-D44A2F57DC28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1F2D008-B7B0-4646-B138-4E9AC22E847B}
