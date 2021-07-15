@@ -45,15 +45,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper in Asp.Net Core", "D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S10-Final Project", "S10-Final Project", "{1546F515-0115-4E9C-A591-EB13DFE6BAD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject.Entity", "FinalProject.Entity\FinalProject.Entity.csproj", "{B350B301-E557-4C8F-A062-54B469EEDDED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalProject.Entity", "FinalProject.Entity\FinalProject.Entity.csproj", "{B350B301-E557-4C8F-A062-54B469EEDDED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject.Constract", "FinalProject.Constract\FinalProject.Constract.csproj", "{DEC12E74-E926-4F44-8862-842BCB5B8233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalProject.Constract", "FinalProject.Constract\FinalProject.Constract.csproj", "{DEC12E74-E926-4F44-8862-842BCB5B8233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject.RepositoryDapper", "FinalProject.RepositoryDapper\FinalProject.RepositoryDapper.csproj", "{13430A50-339E-4AA2-99CA-EBF308C02191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalProject.RepositoryDapper", "FinalProject.RepositoryDapper\FinalProject.RepositoryDapper.csproj", "{13430A50-339E-4AA2-99CA-EBF308C02191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject.Comman", "FinalProject.Comman\FinalProject.Comman.csproj", "{4B8015D4-7189-473F-B3D6-5C7318BB7933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalProject.Comman", "FinalProject.Comman\FinalProject.Comman.csproj", "{4B8015D4-7189-473F-B3D6-5C7318BB7933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject.WebApi", "FinalProject.WebApi\FinalProject.WebApi.csproj", "{AD784C36-B144-4C0A-AA93-5408BFDC86F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalProject.WebApi", "FinalProject.WebApi\FinalProject.WebApi.csproj", "{AD784C36-B144-4C0A-AA93-5408BFDC86F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-Dapper ExecuteReader SP", "11-Dapper ExecuteReader SP", "{492178EE-C073-4F61-BEAA-4D591DFCAA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper ExecuteReader SP", "Dapper ExecuteReader SP\Dapper ExecuteReader SP.csproj", "{FE45C4E5-879D-4E4D-8D14-03501FFA1C56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +125,10 @@ Global
 		{AD784C36-B144-4C0A-AA93-5408BFDC86F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD784C36-B144-4C0A-AA93-5408BFDC86F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD784C36-B144-4C0A-AA93-5408BFDC86F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE45C4E5-879D-4E4D-8D14-03501FFA1C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE45C4E5-879D-4E4D-8D14-03501FFA1C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE45C4E5-879D-4E4D-8D14-03501FFA1C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE45C4E5-879D-4E4D-8D14-03501FFA1C56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +149,7 @@ Global
 		{13430A50-339E-4AA2-99CA-EBF308C02191} = {1546F515-0115-4E9C-A591-EB13DFE6BAD3}
 		{4B8015D4-7189-473F-B3D6-5C7318BB7933} = {1546F515-0115-4E9C-A591-EB13DFE6BAD3}
 		{AD784C36-B144-4C0A-AA93-5408BFDC86F1} = {1546F515-0115-4E9C-A591-EB13DFE6BAD3}
+		{FE45C4E5-879D-4E4D-8D14-03501FFA1C56} = {492178EE-C073-4F61-BEAA-4D591DFCAA7C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1F2D008-B7B0-4646-B138-4E9AC22E847B}
